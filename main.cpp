@@ -1,7 +1,9 @@
 #include <iostream>
+#include "Example/example.h"
 
 int main()
 {
-    std::cout << "Test dynamic libraries in Linux environment" << std::endl;
+    Foo();
+
     return 0;
 }
