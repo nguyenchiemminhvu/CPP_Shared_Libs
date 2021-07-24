@@ -2,5 +2,5 @@
 
 void Foo()
 {
-    printf("This is an example of using shared library in Linux environment\n");
+    printf("Hello! This is an example of using shared library in Linux environment\n");
 }
