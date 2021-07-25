@@ -5,6 +5,16 @@
 #include "example.hpp"
 #include "example_dl.h"
 
+void __attribute__((constructor)) on_program_startup()
+{
+    std::cout << "main startup" << std::endl;
+}
+
+void __attribute__((destructor)) on_program_endup()
+{
+    std::cout << "main endup" << std::endl;
+}
+
 int main()
 {
     Foo();
