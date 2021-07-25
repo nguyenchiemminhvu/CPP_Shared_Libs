@@ -2,5 +2,5 @@
 
 void Foo()
 {
-    printf("(C Version) This is an example of using shared library in Linux environment\n");
+    printf("This is an example of using shared library in Linux environment (C Version)\n");
 }
