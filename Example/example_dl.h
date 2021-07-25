@@ -5,7 +5,7 @@
 extern "C" {
 #endif
 
-
+void dl_func(void *arg);
 
 #if __cplusplus
 }
